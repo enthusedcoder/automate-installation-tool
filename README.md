@@ -1,2 +1,2 @@
 # automate-installation-tool
-This script will scan all of the executable files in a particular directory, determine the silent install switch for the executable, and silently install the application.
+This tool allows the user to select a a folder, and then will, depending on the type of file, perform a silent install of the prroduct or perform some other task, then delete the file.  For ".exe" files, the tools uses a file analyzer to determine the language the software was written in and which "installer" was used to create the installation package to determine which parameters are valid for the silent install.
